@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4105CBE0-68B1-4F77-85C8-8D6E5486E95E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "cue", "src\cue\cue.fsproj", "{7609CA01-57E2-44AE-981C-72C469BF5BC4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "cue.tests", "src\cue.tests\cue.tests.fsproj", "{ADBB6577-7447-41FC-B72E-A54D70513E43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7609CA01-57E2-44AE-981C-72C469BF5BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7609CA01-57E2-44AE-981C-72C469BF5BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7609CA01-57E2-44AE-981C-72C469BF5BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7609CA01-57E2-44AE-981C-72C469BF5BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBB6577-7447-41FC-B72E-A54D70513E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBB6577-7447-41FC-B72E-A54D70513E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBB6577-7447-41FC-B72E-A54D70513E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBB6577-7447-41FC-B72E-A54D70513E43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7609CA01-57E2-44AE-981C-72C469BF5BC4} = {4105CBE0-68B1-4F77-85C8-8D6E5486E95E}
+		{ADBB6577-7447-41FC-B72E-A54D70513E43} = {4105CBE0-68B1-4F77-85C8-8D6E5486E95E}
+	EndGlobalSection
+EndGlobal
